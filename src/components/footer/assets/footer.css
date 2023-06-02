@@ -1,0 +1,55 @@
+.footer-container {
+  background: #000000;
+}
+
+.degradent-content {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(253, 191, 54, 0) 0.01%,
+    rgba(253, 191, 54, 0.8) 99.99%
+  );
+}
+
+.separator {
+  background-color: #000000;
+  height: 50px;
+}
+
+.txt-logo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  color: #fdbf36;
+}
+
+.logo-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.txt-contactanos {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  color: #ffffff;
+}
+
+.txt-mail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  color: #ffffff;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.degradent-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import axios from "axios";
 import "./assets/home.css";
+import Footer from "../../components/footer/Footer";
 
 export const HomePage = () => {
   return (
@@ -14,7 +15,7 @@ export const HomePage = () => {
         <h1 className="title-page">Eventos próximos...</h1>
         <button className="btn-load-more">Cargar más eventos</button>
       </div>
-      <div>footer for the moment</div>
+      <Footer/>
     </>
   );
 };
