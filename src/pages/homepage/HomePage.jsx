@@ -2,6 +2,7 @@ import React from "react";
 import axios from "axios";
 import "./assets/home.css";
 import Footer from "../../components/footer/Footer";
+import Card from "../../components/card/card";
 
 export const HomePage = () => {
   return (
@@ -13,9 +14,17 @@ export const HomePage = () => {
       </div>
       <div className="container">
         <h1 className="title-page">Eventos próximos...</h1>
+        <div className="container-cards">
+          <Card />
+
+          <Card />
+
+          <Card />
+        </div>
+
         <button className="btn-load-more">Cargar más eventos</button>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };

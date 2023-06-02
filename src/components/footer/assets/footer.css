@@ -19,7 +19,7 @@
 .txt-logo {
   font-style: normal;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 45px;
   color: #fdbf36;
 }
 
@@ -33,23 +33,69 @@
 .txt-contactanos {
   font-style: normal;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 30px;
   color: #ffffff;
 }
 
 .txt-mail {
   font-style: normal;
   font-weight: 400;
-  font-size: 35px;
+  font-size: 30px;
   color: #ffffff;
+  margin: 0;
 }
 
-.underline{
-    text-decoration: underline;
+.underline {
+  text-decoration: underline;
 }
 
-.degradent-content {
+.container-logo-footer {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.container-contactanos-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-contactanos-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+}
+
+.container-descarga-footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 15%;
+}
+
+.container-social-footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 15%;
+}
+
+.icon-foo i {
+  font-size: 40px;
+  color: #ffffff;
+  margin-right: 15px;
+}
+
+.container-info-footer {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 0;
 }
