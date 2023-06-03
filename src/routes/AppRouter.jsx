@@ -4,7 +4,7 @@ import Navigation from "../components/navigation/Navigation";
 import { HomePage } from "../pages/homepage/HomePage";
 import PagoEvento from "../pages/pagoEvento/PagoEvento";
 import ConfirmarCompra from "../pages/confirmarCompra/confirmarCompra";
-
+import DetalleEvento from "../pages/detalleEvento/DetalleEvento";
 
 const AppRouter = () => {
   return (
@@ -14,6 +14,7 @@ const AppRouter = () => {
           <Route index element={<HomePage />} />
           <Route path="pagoEvento" element={<PagoEvento />} />
           <Route path="confirmarCompra" element={<ConfirmarCompra />} />
+          <Route path="detalleEvento" element={<DetalleEvento />} />
         </Route>
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>

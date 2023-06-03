@@ -1,5 +1,8 @@
 .card-container {
-  width: 350px;
+  width: 270px;
+  position: relative;
+  display: inline-block;
+  transition: transform 0.3s ease;
 }
 
 .bg-card {
@@ -12,12 +15,6 @@
   justify-content: space-between;
   width: 90%;
   margin: 3rem auto;
-}
-
-.card-container {
-  position: relative;
-  display: inline-block;
-  transition: transform 0.3s ease;
 }
 
 .card-container:hover {
@@ -47,4 +44,58 @@
 
 .card-container:hover .card-info {
   opacity: 1;
+}
+
+.txt-card {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.title-card {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.btn-detalle {
+  background: #a8a7a7;
+  border-radius: 40px;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 3rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+i.fa-light.fa-arrow-right-long {
+  margin-left: 11px;
+  font-size: 32px;
+}
+
+.container-info-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+img.ico-card {
+  width: 36px;
 }

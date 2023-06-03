@@ -1,5 +1,4 @@
 import React from "react";
-import axios from "axios";
 import "./assets/home.css";
 import Footer from "../../components/footer/Footer";
 import Card from "../../components/card/card";
