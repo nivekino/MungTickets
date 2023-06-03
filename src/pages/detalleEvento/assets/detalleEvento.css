@@ -1,0 +1,149 @@
+.contaier-info {
+  display: flex;
+  flex-direction: row;
+  padding: 3rem;
+}
+
+.img-detalle {
+  width: 250px;
+  height: 300px;
+  border-radius: 40px;
+}
+
+.info-detalle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-detalle-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title-detalle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 41px;
+  color: #000000;
+  margin: 0;
+}
+
+.txt-detalle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 52px;
+  color: #666565;
+  margin: 0;
+  margin-left: 15px;
+}
+
+.info-2 {
+  margin-left: 30px;
+}
+
+.line-divider {
+  border-top: 3px solid #9f9f9f;
+  width: 98%;
+}
+
+.title-localidades {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  color: #000000;
+  margin: 0;
+}
+
+.txt-localidades {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  color: #666565;
+  font-family: "Montserrat", sans-serif;
+}
+
+.price-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn-pay {
+  background: #fdbf36;
+  border-radius: 30px;
+  border: none;
+  padding: 0.5rem 2rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  text-align: center;
+  color: #000000;
+  cursor: pointer;
+}
+
+.localidades-container-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.price-container {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 0 3rem;
+}
+
+.img-locations {
+  height: 350px;
+  width: 100%;
+}
+
+.localidades-container-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 30%;
+}
+
+.container-shop {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding-right: 5rem;
+}
+
+.title-patrocinadores {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  color: #000000;
+  margin: 0;
+}
+
+.txt-patrocinadores {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #666565;
+  width: 45%;
+}
+
+.container-patrocinio {
+  display: flex;
+  flex-direction: column;
+  padding: 0 3rem;
+}

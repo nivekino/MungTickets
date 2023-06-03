@@ -147,6 +147,11 @@ img.img-menu {
   display: block;
 }
 
+.menu-item:hover .submenu-2,
+.submenu-2:hover {
+  display: block;
+}
+
 .submenu-item {
   font-style: normal;
   font-weight: 500;
@@ -161,4 +166,16 @@ img.img-menu {
 
 .submenu-item a:hover {
   border-bottom: 2px solid #ffffff;
+}
+
+.submenu-2 {
+  position: absolute;
+  bottom: -319%;
+  left: 0;
+  padding: 0.3rem 1rem;
+  display: none;
+  list-style: none;
+  width: 100%;
+  background: #000000;
+  border-radius: 10px;
 }

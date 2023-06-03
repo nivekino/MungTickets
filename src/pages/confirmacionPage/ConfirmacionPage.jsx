@@ -1,6 +1,6 @@
 import React from "react";
 
-const ConfirmarCompra = () => {
+const ConfirmacionPage = () => {
   return (
     <>
       <div className="bg-gray_100 flex flex-col font-poppins gap-[19px] justify-start mx-auto pb-3 w-full">
@@ -82,4 +82,4 @@ const ConfirmarCompra = () => {
   );
 };
 
-export default ConfirmarCompra;
+export default ConfirmacionPage;
