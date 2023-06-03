@@ -35,7 +35,7 @@ const Card = () => {
               <img src={location} alt="" className="ico-card" />
               <p className="txt-card">24-05-23</p>
             </div>
-            <Link to="/detalleEvento" className="btn-detalle">
+            <Link to="/detalle-evento" className="btn-detalle">
               Ver detalles <i className="fa-light fa-arrow-right-long"></i>
             </Link>
           </div>

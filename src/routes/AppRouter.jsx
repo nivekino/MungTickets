@@ -3,7 +3,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import Navigation from "../components/navigation/Navigation";
 import { HomePage } from "../pages/homepage/HomePage";
 import PagoEvento from "../pages/pagoEvento/PagoEvento";
-import ConfirmarCompra from "../pages/confirmarCompra/confirmarCompra";
+import ConfirmacionPage from "../pages/confirmacionPage/ConfirmacionPage";
 import DetalleEvento from "../pages/detalleEvento/DetalleEvento";
 
 const AppRouter = () => {
@@ -12,9 +12,9 @@ const AppRouter = () => {
       <Routes>
         <Route path="/" element={<Navigation />}>
           <Route index element={<HomePage />} />
-          <Route path="pagoEvento" element={<PagoEvento />} />
-          <Route path="confirmarCompra" element={<ConfirmarCompra />} />
-          <Route path="detalleEvento" element={<DetalleEvento />} />
+          <Route path="pago-evento" element={<PagoEvento />} />
+          <Route path="pago-confirmado" element={<ConfirmacionPage />} />
+          <Route path="detalle-evento" element={<DetalleEvento />} />
         </Route>
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>

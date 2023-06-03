@@ -43,12 +43,30 @@ const Navigation = () => {
                 <img src={logoCategory} alt="" className="img-menu" />
                 <p className="txt-menu">Categorias</p>
               </div>
-              <ul className="submenu">
+              <ul className="submenu-2">
                 <li className="submenu-item">
-                  <Link to="/categoria1">Categoria 1</Link>
+                  <Link to="/">Toque musical</Link>
                 </li>
                 <li className="submenu-item">
-                  <Link to="/categoria2">Categoria 2</Link>
+                  <Link to="/">Expo. de Arte</Link>
+                </li>
+                <li className="submenu-item">
+                  <Link to="/">Teatro</Link>
+                </li>
+                <li className="submenu-item">
+                  <Link to="/">Danza</Link>
+                </li>
+                <li className="submenu-item">
+                  <Link to="/">Literatura</Link>
+                </li>
+                <li className="submenu-item">
+                  <Link to="/">Debate</Link>
+                </li>
+                <li className="submenu-item">
+                  <Link to="/">Stand up comedy</Link>
+                </li>
+                <li className="submenu-item">
+                  <Link to="/">Otro</Link>
                 </li>
               </ul>
             </li>
