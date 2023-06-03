@@ -29,13 +29,13 @@ const footer = () => {
               <h3 className="txt-contactanos">Síguenos en redes sociales</h3>
               <div className="cont-social">
                 <Link to="/" className="icon-foo">
-                  <i class="fa-brands fa-facebook"></i>
+                  <i className="fa-brands fa-facebook"></i>
                 </Link>
                 <Link to="/" className="icon-foo">
-                  <i class="fa-brands fa-instagram"></i>
+                  <i className="fa-brands fa-instagram"></i>
                 </Link>
                 <Link to="/" className="icon-foo">
-                  <i class="fa-brands fa-twitter"></i>
+                  <i className="fa-brands fa-twitter"></i>
                 </Link>
               </div>
             </div>

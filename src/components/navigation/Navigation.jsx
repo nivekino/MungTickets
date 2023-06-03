@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Link, Outlet, useNavigate } from "react-router-dom";
+import React from "react";
+import { Link, Outlet } from "react-router-dom";
 import "./assets/Navigation.css";
 import logo from "./assets/img/logo.png";
 import logoEvent from "./assets/img/logo-eventos.png";
