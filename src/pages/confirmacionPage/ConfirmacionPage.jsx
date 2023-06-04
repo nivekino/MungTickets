@@ -1,6 +1,7 @@
 import React from "react";
 
 const ConfirmacionPage = () => {
+  
   return (
     <>
       <div className="bg-gray_100 flex flex-col font-poppins gap-[19px] justify-start mx-auto pb-3 w-full">
