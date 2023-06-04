@@ -8,6 +8,7 @@ import logo from "./assets/img/logo.png";
 import card from "./assets/img/card-plus.png";
 
 const ConfirmacionPage = () => {
+  
   return (
     <>
       <div className="wrapper">

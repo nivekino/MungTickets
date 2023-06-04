@@ -65,7 +65,7 @@ const DetalleEvento = () => {
               </div>
               <div className="price-info">
                 <p className="txt-localidades">General</p>
-                <p className="txt-localidades">$$30</p>
+                <p className="txt-localidades">$30</p>
               </div>
             </div>
             <div className="localidades-container-3">
