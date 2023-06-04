@@ -65,11 +65,11 @@
 }
 
 .separate-b {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #9F9F9F;
 }
 
 .pb-2 {
-    padding-bottom: 4rem;
+    padding: 1.5rem 0.5rem;
 }
 
 .name {
@@ -95,7 +95,7 @@ table {
 }
 
 .card-plus {
-    width: 50px;
+    width: 36px;
     margin-right: 0.5rem;
     float: left;
 }
@@ -104,13 +104,19 @@ table {
     z-index: 1;
 }
 
-button {
-    padding: 10px 20px;
-    border-radius: 15px;
-    border: 2px solid #000;
+.btn-back {
+    padding: 4px 4rem;
+    border-radius: 25px;
+    border: 2px solid #000000;
     background-color: white;
     margin-top: 2rem;
     margin-left: auto;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+td.center-img.logo {
+    border-bottom: 2px solid #9F9F9F;
 }
 
 @media screen and (max-width: 500px) {

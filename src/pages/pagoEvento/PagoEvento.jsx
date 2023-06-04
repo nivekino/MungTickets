@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./assets/style.css";
 import { Link } from "react-router-dom";
+import Footer from "../../components/footer/Footer";
 
 const PagoEvento = () => {
   const [selectedOption, setSelectedOption] = useState("");
@@ -129,6 +130,8 @@ const PagoEvento = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </>
   );
 };

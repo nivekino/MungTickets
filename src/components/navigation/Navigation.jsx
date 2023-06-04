@@ -77,10 +77,10 @@ const Navigation = () => {
               </div>
               <ul className="submenu">
                 <li className="submenu-item">
-                  <Link to="/profile">Profile</Link>
+                  <Link to="/eventos-user">Mis eventos</Link>
                 </li>
                 <li className="submenu-item">
-                  <Link to="/settings">Settings</Link>
+                  <Link to="/">Salir</Link>
                 </li>
               </ul>
             </li>
