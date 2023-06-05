@@ -96,6 +96,7 @@
   border-radius: 25px;
   text-align: center;
   position: relative;
+  width: 650px;
 }
 
 .close {
@@ -151,7 +152,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 650px;
 }
 
 .img-modal-container {
@@ -211,4 +211,84 @@
   font-size: 16px;
   background: transparent;
   cursor: pointer;
+}
+
+.ingresar-btn {
+  background: #fdbf36;
+  border-radius: 30px;
+  border: none;
+  padding: 0.3rem 3rem;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.return-btn-modal {
+  border: 2px solid #000000;
+  border-radius: 30px;
+  padding: 0.3rem 3rem;
+  font-size: 16px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.title-event-modal-2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  text-align: center;
+  color: #000000;
+  margin: 0;
+}
+
+.txt-2modal {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  text-align: center;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 3rem;
+}
+
+.user-txt-modal {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.input-modal-user {
+  background: #ffffff;
+  border: 2px solid #b8bbc2;
+  border-radius: 10px;
+  width: 60%;
+  padding: 0.3rem 1rem;
+}
+
+.title-qr-modal {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  color: #000000;
+  margin: 0 auto;
+}
+
+.img-qr {
+  width: 350px;
+}
+
+.txt-qr-content {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  color: #000000;
+}
+
+.txt-alternative {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  color: #fdbf36;
 }
