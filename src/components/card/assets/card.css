@@ -11,7 +11,7 @@
 
 .container-cards {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 90%;
   margin: 3rem auto;
@@ -98,4 +98,104 @@ i.fa-light.fa-arrow-right-long {
 
 img.ico-card {
   width: 36px;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-container {
+    width: 180px;
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+
+  .title-card {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .txt-card {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+
+  .btn-detalle {
+    background: #a8a7a7;
+    border-radius: 40px;
+    color: #ffffff;
+    border: none;
+    padding: 0.2rem 1rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  i.fa-light.fa-arrow-right-long {
+    margin-left: 11px;
+    font-size: 24px;
+  }
+
+  img.ico-card {
+    width: 24px;
+  }
+
+  .title-page {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 90px;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .card-container {
+    width: 75%;
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0rem auto;
+  }
+
+  button.btn-load-more {
+    position: absolute;
+    bottom: -1.3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fdbf36;
+    border: none;
+    border-radius: 40px;
+    padding: 0.6rem 0.5rem;
+    cursor: pointer;
+  }
 }
