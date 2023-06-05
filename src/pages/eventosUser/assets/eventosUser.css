@@ -323,3 +323,287 @@
 .img-confirm-modal {
   width: 240px;
 }
+
+@media only screen and (max-width: 768px) {
+  .title-user-event {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    color: #000000;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .tabs-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+    padding-left: 1rem;
+  }
+
+  .tab-content {
+    padding-left: 2rem;
+    margin: 3rem 0;
+  }
+
+  .tab-content-2 {
+    padding-left: 0rem;
+  }
+
+  .txt-user-not {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+    position: absolute;
+    z-index: 2;
+    bottom: -2rem;
+    width: 66%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .title-user-event {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color: #000000;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .tab {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    line-height: normal;
+    color: #000000;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+  }
+
+  .tabs-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    padding-left: 1rem;
+  }
+
+  .img-bg-user {
+    width: 220px;
+    z-index: 1;
+  }
+
+  .txt-user-not {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    position: absolute;
+    z-index: 2;
+    bottom: -1rem;
+    width: 94%;
+  }
+
+  .txt-link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #fdbf36;
+    cursor: pointer;
+  }
+
+  .container-card-user {
+    height: auto;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .card-event-user {
+    height: 285px;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s all;
+  }
+
+  .img-card-user {
+    height: 285px;
+    width: 100%;
+  }
+
+  .tab-content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 3rem 0;
+  }
+
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+    position: relative;
+    width: 235px;
+  }
+
+  .title-event-modal {
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+    margin-top: 25px;
+  }
+
+  .container-detail-modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  .img-modal-container {
+    width: 100%;
+  }
+
+  .container-info-modal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cont-btn-modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0;
+  }
+
+  .gen-qr {
+    border: 2px solid #000000;
+    border-radius: 30px;
+    padding: 0.3rem 3rem;
+    font-size: 16px;
+    background: transparent;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .tns-ticket {
+    background: #fdbf36;
+    border-radius: 30px;
+    border: none;
+    padding: 0.3rem 3rem;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .img-qr {
+    width: 100%;
+  }
+
+  .title-qr-modal {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+  }
+
+  .txt-qr-content {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+  }
+
+  .txt-alternative {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color: #fdbf36;
+  }
+
+  .title-event-modal-2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    margin-top: 24px;
+  }
+
+  .txt-2modal {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  .input-modal-user {
+    background: #ffffff;
+    border: 2px solid #b8bbc2;
+    border-radius: 10px;
+    width: 85%;
+    padding: 0.3rem 1rem;
+  }
+
+  .ingresar-btn {
+    background: #fdbf36;
+    border-radius: 30px;
+    border: none;
+    padding: 0.3rem 3rem;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .return-btn-modal {
+    border: 2px solid #000000;
+    border-radius: 30px;
+    padding: 0.3rem 3rem;
+    font-size: 16px;
+    background: transparent;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .img-confirm-modal {
+    width: 75%;
+  }
+
+  .title-qr-modal-2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+  }
+
+  .txt-confirmed {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+  }
+}
