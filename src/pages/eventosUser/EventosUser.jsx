@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import Footer from "../../components/footer/Footer";
 import cardbg from "./assets/img/cardUser.png";
 import codeQR from "./assets/img/codeQR.png";
+import logoSend from "./assets/img/logoSend.png";
 
 const EventosUser = () => {
   const [activeTab, setActiveTab] = useState(1);
@@ -38,6 +39,21 @@ const EventosUser = () => {
 
   const handleCancelClick = () => {
     setModalContent("main");
+  };
+
+  const handleIngresarClick = () => {
+    setShowModalContent(false);
+    setModalContent("correoEnviado");
+  };
+
+  const handleTransferCode = () => {
+    setShowModalContent(false);
+    setModalContent("transferCode");
+  };
+
+  const handleTransferCodeConfirmed = () => {
+    setShowModalContent(false);
+    setModalContent("transferCodeConfirmed");
   };
 
   return (
@@ -76,6 +92,7 @@ const EventosUser = () => {
                 <span className="close" onClick={closeModal}>
                   &times;
                 </span>
+
                 {modalContent === "main" && (
                   <>
                     <h2 className="title-event-modal">Juan Luis Guerra</h2>
@@ -104,6 +121,7 @@ const EventosUser = () => {
                     </div>
                   </>
                 )}
+
                 {modalContent === "transfer" && (
                   <>
                     <h2 className="title-event-modal-2">
@@ -117,7 +135,12 @@ const EventosUser = () => {
                     </p>
                     <input type="text" className="input-modal-user" />
                     <div className="cont-btn-modal">
-                      <button className="ingresar-btn">Ingresar</button>
+                      <button
+                        className="ingresar-btn"
+                        onClick={handleIngresarClick}
+                      >
+                        Confirmar
+                      </button>
                       <button
                         className="return-btn-modal"
                         onClick={handleCancelClick}
@@ -127,6 +150,67 @@ const EventosUser = () => {
                     </div>
                   </>
                 )}
+
+                {modalContent === "correoEnviado" && (
+                  <>
+                    <div className="mail-confirmed">
+                      <img
+                        src={logoSend}
+                        alt=""
+                        className="img-confirm-modal"
+                      />
+                      <h2 className="title-qr-modal-2">Correo enviado</h2>
+                      <p className="txt-confirmed">
+                        Se ha enviado un correo con la información del boleto
+                      </p>
+                      <button
+                        className="confirmation-btn"
+                        onClick={handleTransferCode}
+                      >
+                        Aceptar
+                      </button>
+                    </div>
+                  </>
+                )}
+
+                {modalContent === "transferCode" && (
+                  <>
+                    <h2 className="title-event-modal-2">Ingresa el código</h2>
+                    <p className="txt-2modal">
+                      Ingrese código enviado al usuario destino
+                    </p>
+                    <p className="user-txt-modal">Código:</p>
+                    <input type="text" className="input-modal-user" />
+                    <div className="cont-btn-modal">
+                      <button className="ingresar-btn" onClick={handleTransferCodeConfirmed}>Confirmar</button>
+                      <button className="return-btn-modal" onClick={closeModal}>
+                        Cancelar
+                      </button>
+                    </div>
+                  </>
+                )}
+
+                {modalContent === "transferCodeConfirmed" && (
+                  <>
+                    <div className="mail-confirmed">
+                      <img
+                        src={logoSend}
+                        alt=""
+                        className="img-confirm-modal"
+                      />
+                      <h2 className="title-qr-modal-2">
+                        Transferencia exitosa
+                      </h2>
+                      <p className="txt-confirmed">
+                        Se han transferido 1 ticket al usuario USUARIO
+                      </p>
+                      <button className="confirmation-btn" onClick={closeModal}>
+                        Regresar
+                      </button>
+                    </div>
+                  </>
+                )}
+
                 {modalContent === "qr" && (
                   <>
                     <h2 className="title-qr-modal">Código QR</h2>
@@ -143,6 +227,7 @@ const EventosUser = () => {
           )}
         </div>
       )}
+
       {activeTab === 2 && (
         <div className="tab-content-2">
           <div className="not-found-container">
