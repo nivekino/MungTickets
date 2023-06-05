@@ -145,11 +145,13 @@ img.img-menu {
 .menu-item:hover .submenu,
 .submenu:hover {
     display: block;
+    z-index: 2;
 }
 
 .menu-item:hover .submenu-2,
 .submenu-2:hover {
     display: block;
+    z-index: 2;
 }
 
 .submenu-item {

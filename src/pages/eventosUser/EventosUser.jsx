@@ -4,6 +4,7 @@ import logoBg from "./assets/img/big-ico.png";
 import { Link } from "react-router-dom";
 import Footer from "../../components/footer/Footer";
 import cardbg from "./assets/img/cardUser.png";
+import codeQR from "./assets/img/codeQR.png";
 
 const EventosUser = () => {
   const [activeTab, setActiveTab] = useState(1);
@@ -32,6 +33,10 @@ const EventosUser = () => {
   const closeModal = () => {
     setShowModal(false);
     setShowModalContent(true);
+    setModalContent("main");
+  };
+
+  const handleCancelClick = () => {
     setModalContent("main");
   };
 
@@ -101,14 +106,36 @@ const EventosUser = () => {
                 )}
                 {modalContent === "transfer" && (
                   <>
-                    <h2 className="title-event-modal">Transferir ticket</h2>
-                    {/* Contenido específico para transferir ticket */}
+                    <h2 className="title-event-modal-2">
+                      ¿Desea transferir alguno de sus boletos?
+                    </h2>
+                    <p className="txt-2modal">
+                      Ingrese la siguiente información:
+                    </p>
+                    <p className="user-txt-modal">
+                      Ingrese el usuario destino:
+                    </p>
+                    <input type="text" className="input-modal-user" />
+                    <div className="cont-btn-modal">
+                      <button className="ingresar-btn">Ingresar</button>
+                      <button
+                        className="return-btn-modal"
+                        onClick={handleCancelClick}
+                      >
+                        Cancelar
+                      </button>
+                    </div>
                   </>
                 )}
                 {modalContent === "qr" && (
                   <>
-                    <h2 className="title-event-modal">Generar QR</h2>
-                    {/* Contenido específico para generar QR */}
+                    <h2 className="title-qr-modal">Código QR</h2>
+                    <img src={codeQR} alt="" className="img-qr" />
+                    <p className="txt-qr-content">
+                      <span className="txt-alternative">*Recordar:</span> Al
+                      momento de ingresar al evento, debe presentar el código QR
+                      de la entrada.
+                    </p>
                   </>
                 )}
               </div>
